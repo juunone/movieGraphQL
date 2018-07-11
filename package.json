@@ -1,0 +1,22 @@
+{
+  "name": "movieGraphQL",
+  "version": "1.0.0",
+  "description": "movie API with Graph QL",
+  "main": "index.js",
+  "repository": "https://github.com/juunone/movieGraphQL",
+  "author": "june one choi(juunone@gmail.com))",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "global": "^4.3.2",
+    "graphql-yoga": "^1.14.12"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
